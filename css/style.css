@@ -1,0 +1,35 @@
+/*=============================================
+  ____  _____ _______        _     _
+ |  _ \|  __ \__   __|      | |   (_)
+ | |_) | |  | | | | ___  ___| |__  _  ___  ___
+ |  _ <| |  | | | |/ _ \/ __| '_ \| |/ _ \/ __|
+ | |_) | |__| | | |  __/ (__| | | | |  __/\__ \
+ |____/|_____/  |_|\___|\___|_| |_|_|\___||___/
+
+ !------- We Convert IDEAS into REALITY ------!
+
+ =============================================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* a:hover {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+body {
+  min-height: 100vh;
+  background: #3C3741;
+  color: #fafafa;
+}
