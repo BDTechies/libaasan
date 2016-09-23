@@ -10,26 +10,120 @@
 
  =============================================*/
 
+@import 'https://fonts.googleapis.com/css?family=Abel';
+@import url('https://cdn.rawgit.com/musafirshahid/bangla-web-fonts/ekushey-lohit/stylesheet.css');
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
 * a:hover {
-  text-decoration: none;
+    text-decoration: none;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+body {
+    font-family: 'Ekushey Lohit', 'Abel', sans-serif;
+}
+.logo {
+    width: 50px;
+}
+.navbar-nav li a {
+    font-size: 1.5em;
+}
+.landing {
+    color: #FAFAFA;
+    text-shadow: 0 0 5px #222;
+    min-height: 100vh;
+    text-align: center;
+    background: url('../img/landing.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-.flex {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
+.about {
+    padding: 3em 0;
+    font-size: 1.3em;
+}
+.product-category {
+    padding: 3em 0;
+    background: #404751;
+    background-attachment: fixed;
+    text-align: center;
+}
+.single-cat {
+    background: #fafafa;
+    padding: 1em;
+}
+.gallery {
+    padding: 3em 0;
+}
+
+.about-content {
+  padding-top: 2em;
+}
+
+.bordered-title {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #999;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+.bordered-title span {
+    background: #fafafa;
+    padding: 0 10px;
+}
+
+.single-p h3 {
+    background: #404751;
+    color: #fafafa;
+    padding: 0.3em 0.5em;
+}
+
+.contact {
+  padding: 3em 0;
+  background: #404751;
+}
+
+.contact input {
+  width: 100%;
+  padding: 1em;
+  border: none;
+  background: #FAFAFA;
+  color: #404751;
+}
+
+.social {
   text-align: center;
 }
 
-body {
-  min-height: 100vh;
-  background: #3C3741;
-  color: #fafafa;
+.fb, .twitter {
+  display: block;
+  padding: 1em;
+  width: 100%;
+  color: #FAFAFA;
+}
+
+.fb {
+  background: #46629E;
+}
+
+.twitter {
+  background: #1DA1F2;
+}
+
+.fb:hover, .twitter:hover {
+  background: #FAFAFA;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1.2em;
+  padding: 0.5em 0;
 }
