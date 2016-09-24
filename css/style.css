@@ -9,7 +9,6 @@
  !------- We Convert IDEAS into REALITY ------!
 
  =============================================*/
-
 @import 'https://fonts.googleapis.com/css?family=Abel';
 @import url('https://cdn.rawgit.com/musafirshahid/bangla-web-fonts/ekushey-lohit/stylesheet.css');
 * {
@@ -33,7 +32,7 @@ body {
     width: 50px;
 }
 .navbar-nav li a {
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 .landing {
     color: #FAFAFA;
