@@ -92,10 +92,11 @@ body {
 
 .contact input {
   width: 100%;
-  padding: 1em;
+  padding: 0.75em;
   border: none;
   background: #FAFAFA;
   color: #404751;
+  font-size: 1.2em;
 }
 
 .social {
@@ -104,9 +105,10 @@ body {
 
 .fb, .twitter {
   display: block;
-  padding: 1em;
+  padding: 0.75em;
   width: 100%;
   color: #FAFAFA;
+  font-size: 1.2em;
 }
 
 .fb {
@@ -119,6 +121,7 @@ body {
 
 .fb:hover, .twitter:hover {
   background: #FAFAFA;
+  color: #404751;
 }
 
 .footer p {
