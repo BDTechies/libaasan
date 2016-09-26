@@ -9,6 +9,7 @@
  !------- We Convert IDEAS into REALITY ------!
 
  =============================================*/
+
 @import 'https://fonts.googleapis.com/css?family=Abel';
 @import url('https://cdn.rawgit.com/musafirshahid/bangla-web-fonts/ekushey-lohit/stylesheet.css');
 * {
@@ -27,6 +28,7 @@
 }
 body {
     font-family: 'Ekushey Lohit', 'Abel', sans-serif;
+    font-style: normal;
 }
 .logo {
     width: 50px;
@@ -43,7 +45,6 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
-
 .about {
     padding: 3em 0;
     font-size: 1.3em;
@@ -61,11 +62,9 @@ body {
 .gallery {
     padding: 3em 0;
 }
-
 .about-content {
-  padding-top: 2em;
+    padding-top: 2em;
 }
-
 .bordered-title {
     width: 100%;
     text-align: center;
@@ -73,16 +72,17 @@ body {
     line-height: 0.1em;
     margin: 10px 0 20px;
 }
-
 .bordered-title span {
     background: #fafafa;
     padding: 0 10px;
 }
-
 .single-p h3 {
     background: #404751;
     color: #fafafa;
     padding: 0.3em 0.5em;
+}
+.feedback {
+  margin: 3em 0;
 }
 
 .carousel,
@@ -91,17 +91,14 @@ body {
     height: 100%;
 }
 
-.slide {
-  padding: 3em 0;
-}
-
 .carousel-inner {
     height: 100%;
 }
 
+
 .fill {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -109,87 +106,70 @@ body {
     -o-background-size: cover;
 }
 
-.carousel-control .icon-prev:before {
-  content: '\FF62';
-}
-
-.carousel-control .icon-next:before {
-  content: '\FF63';
-}
-
-.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
-  top: auto;
-  color: #404751;
-  font-size: 2em;
-}
-
-.carousel-control .icon-next {
-  bottom: 10%;
-}
-
-.carousel-control .icon-prev {
-  top: 10%;
-}
-
 .carousel-control.left, .carousel-control.right{
     background: none !important;
     filter: progid:none !important;>
 }
 
-.quote {
-  margin: 0;
-  text-align: center;
-  padding: 1em;
-  line-height: 1.5em;
+/* Background images are set within the HTML using inline CSS, not here */
+
+.quote-slide {
+    width: 100%;
+    min-height: 200px;
+    padding: 2em 3em;
+    text-align: center;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
+
+.feedback .carousel-control,
+.feedback .carousel-indicators {
+  display: none;
+}
+
 
 .contact {
-  padding: 3em 0;
-  background: #404751;
+    padding: 3em 0;
+    background: #404751;
 }
-
 .contact input {
-  width: 100%;
-  padding: 0.75em;
-  border: none;
-  background: #FAFAFA;
-  color: #404751;
-  font-size: 1.2em;
+    width: 100%;
+    padding: 0.75em;
+    border: none;
+    background: #FAFAFA;
+    color: #404751;
+    font-size: 1.2em;
 }
-
 .contact .btn {
-  background: #3C3741;
-  color: #FAFAFA;
+    background: #3C3741;
+    color: #FAFAFA;
 }
-
 .social {
-  text-align: center;
+    text-align: center;
 }
-
 .fb, .twitter {
-  display: block;
-  padding: 0.75em;
-  width: 100%;
-  color: #FAFAFA;
-  font-size: 1.2em;
-  transition: all ease-in-out 0.5s;
+    display: block;
+    padding: 0.75em;
+    width: 100%;
+    color: #FAFAFA;
+    font-size: 1.2em;
+    transition: all ease-in-out 0.5s;
 }
-
 .fb {
-  background: #46629E;
+    background: #46629E;
 }
-
 .twitter {
-  background: #1DA1F2;
+    background: #1DA1F2;
 }
-
 .fb:hover, .twitter:hover {
-  background: #FAFAFA;
-  color: #404751;
+    background: #FAFAFA;
+    color: #404751;
 }
-
 .footer p {
-  margin: 0;
-  font-size: 1.2em;
-  padding: 0.5em 0;
+    margin: 0;
+    font-size: 1.2em;
+    padding: 0.5em 0;
 }
