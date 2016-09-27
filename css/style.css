@@ -135,6 +135,7 @@ body {
 
 .contact {
     padding: 3em 0;
+    padding-top: 0;
 }
 .contact input {
     width: 100%;
