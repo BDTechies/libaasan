@@ -51,7 +51,6 @@ body {
 
 .about,
 .gallery,
-.feedback,
 .contact
  {
     padding: 3em 0;
@@ -114,6 +113,57 @@ body {
     padding: 0.3em 0.5em;
 }
 
+
+.demo-2 {
+    position:relative;
+    width:100%;
+    height:330px;
+    overflow:hidden;
+    float:left;
+    margin-right:20px;
+    background-color: #404751;
+}
+.demo-2 p,.demo-2 h4 {
+    color:#fff;
+    padding:10px;
+    top:20px;
+    position:relative
+}
+.demo-2 p {
+    font-size:12px;
+    line-height:18px;
+    margin:0
+}
+.demo-2 h4 {
+    line-height:2em;
+    margin:0;
+}
+
+.demo-2 h4 span {
+  margin-left: 1em;
+}
+
+.effect img {
+    position:absolute;
+    left:0;
+    bottom:0;
+    cursor:pointer;
+    margin:-12px 0;
+    -webkit-transition:bottom .3s ease-in-out;
+    -moz-transition:bottom .3s ease-in-out;
+    -o-transition:bottom .3s ease-in-out;
+    transition:bottom .3s ease-in-out
+}
+.effect img.top:hover {
+    bottom:-96px;
+    padding-top:100px
+}
+h4.zero,p.zero {
+    margin:0;
+    padding:0
+}
+
+
 .carousel, .item, .active {
     height: 100%;
 }
@@ -132,21 +182,18 @@ body {
 .carousel-control.left, .carousel-control.right {
     background: none !important;
     filter: progid: none !important;
-    >
 }
 
-/* Background images are set within the HTML using inline CSS, not here */
+
+.feedback {
+  margin-top: 3em;
+}
 
 .quote-slide {
     width: 100%;
     min-height: 200px;
     padding: 2em 3em;
     text-align: center;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 .feedback .carousel-control, .feedback .carousel-indicators {
     display: none;
@@ -205,6 +252,5 @@ body {
 }
 .footer p {
     margin: 0;
-    font-size: 1.2em;
     padding: 0.6em 0 0.5em 0;
 }
