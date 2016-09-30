@@ -340,9 +340,10 @@ body {
     color: #FAFAFA;
 }
 .footer {
+  background: #FFF;
     border-top: 1px solid #e7e7e7;
 }
 .footer p {
     margin: 0;
-    padding: 0.6em 0 0.5em 0;
+    padding: 0.8em 0 0.5em 0;
 }
