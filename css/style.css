@@ -54,10 +54,16 @@ body {
 .contact
  {
     padding: 3em 0;
+    margin-top: 3em;
+}
+
+.about {
+  margin-top: 3em;
 }
 
 .about-content {
     padding-top: 2em;
+    text-align: justify;
 }
 
 .about p {
@@ -301,10 +307,10 @@ body {
     color: #404751;
     border-radius: 0;
     font-size: 1.2em;
-}
-.email {
     border: 1px solid #999;
+    margin-bottom: 1em;
 }
+
 .contact .sbtn {
     border-left: 1px solid #999;
     transition: all ease-in-out 0.5s;
@@ -316,7 +322,7 @@ body {
 .social {
     text-align: center;
 }
-.fb, .twitter {
+.fb, .twitter, .mobile {
     display: block;
     padding: 0.75em;
     width: 100%;
@@ -325,18 +331,21 @@ body {
     transition: all ease-in-out 0.5s;
     border: 1px solid #999;
     background: #fafafa;
+    margin-bottom: 1em;
 }
-.fb {
-    border-left: none;
-    border-right: none;
-}
+
 .fb:hover {
     background: #46629E;
 }
 .twitter:hover {
     background: #1DA1F2;
 }
-.fb:hover, .twitter:hover {
+
+.mobile:hover {
+  background: #404751;
+}
+
+.fb:hover, .twitter:hover, .mobile:hover {
     color: #FAFAFA;
 }
 .footer {
