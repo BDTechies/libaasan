@@ -348,6 +348,16 @@ body {
 .fb:hover, .twitter:hover, .mobile:hover {
     color: #FAFAFA;
 }
+
+.toc {
+  min-height: 94vh;
+}
+
+.toc p {
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
 .footer {
   background: #FFF;
     border-top: 1px solid #e7e7e7;
